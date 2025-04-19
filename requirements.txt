@@ -1,0 +1,16 @@
+torch
+huggingface_hub
+streamlit
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+unstructured
+beautifulsoup4
+requests
+tqdm
+python-dotenv
+langchain_community
+assemblyai
+PyPDF2
+bs4
