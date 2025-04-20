@@ -15,10 +15,11 @@
 
 5- Once all the required libraries are installed you can run this application using the command:
   - streamlit run aai_output.py
-  - The application will bydefaul run on port:8051;
+  - The application will by default run on port:8051;
 
-6- ![image](https://github.com/user-attachments/assets/c404464d-a507-498a-add9-256cb0283cc6)
-7- ![image](https://github.com/user-attachments/assets/e93a66aa-b6bd-43dc-a378-a7a45f909b14)
-8- ![image](https://github.com/user-attachments/assets/d0aa0a2f-9eb4-42ba-9d43-3ab116fa95b0)
+6- ![image](https://github.com/user-attachments/assets/ef064802-a512-4ff9-946b-7f6c1e7fb5d0)
+7- ![image](https://github.com/user-attachments/assets/c404464d-a507-498a-add9-256cb0283cc6)
+8- ![image](https://github.com/user-attachments/assets/e93a66aa-b6bd-43dc-a378-a7a45f909b14)
+9- ![image](https://github.com/user-attachments/assets/d0aa0a2f-9eb4-42ba-9d43-3ab116fa95b0)
 
 
