@@ -24,7 +24,7 @@ def generate_transcript(file):
 
         output_text = ""
         for utterance in transcript.utterances:
-            output_text += f"Speaker {utterance.speaker}:{utterance.text}\n"
+            output_text += f"<b>Speaker {utterance.speaker}:</b>{utterance.text}\n"
             print("output",output_text)
         return output_text
     except Exception as e:

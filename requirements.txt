@@ -12,5 +12,5 @@ tqdm
 python-dotenv
 langchain_community
 assemblyai
-PyPDF2
+pypdf
 bs4

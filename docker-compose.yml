@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    command: "ollama run llama3:3b"
+    restart: unless-stopped
+
+  streamlit:
+    build: .
+    image: ash21shukla/content_summarizer
+    container_name: streamlit_app
+    ports:
+      - "8501:8501"
+    depends_on:
+      - ollama
+    environment:
+      - OLLAMA_URL=http://ollama:11434
+    command: streamlit run aai_output.py
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
