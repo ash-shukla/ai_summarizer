@@ -8,6 +8,8 @@
 
 - Python
 - Ollama [Link text](https://ollama.com/download/OllamaSetup.exe)
+- Then open cmd and run [ollama run llama3.2] this will pull llama3.2 model,
+  which is used as the LLM for this application
 
 3- Before installing the libraies its recommended to create a virtual environment where all the dependencies can be installed:
 
