@@ -3,6 +3,9 @@ import tempfile
 from pathlib import Path
 import streamlit as st
 import assemblyai as aai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 aai.settings.api_key= os.getenv("AAI_TOKEN")
 

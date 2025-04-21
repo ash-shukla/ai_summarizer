@@ -8,9 +8,10 @@ from langchain.chains import RetrievalQA
 from dotenv import load_dotenv
 
 load_dotenv()
+ollama_url = "http://localhost:11434"
 
 def load_llm():
-    return Ollama(model="llama3.2:3b",base_url="http://host.docker.internal:11434",temperature=0.7)
+    return Ollama(model="llama3.2:3b",base_url=ollama_url,temperature=0.7)
 
 def embed_and_store(transcribed_text):
     if not transcribed_text.strip(): 
